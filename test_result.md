@@ -213,16 +213,28 @@ frontend:
       - working: true
         agent: "testing"
         comment: "✅ All major sections render correctly: Hero, Director's Vision, Premise, MMIW, Golden Rule, Cast, Filmmakers, Philosophy, Trailer, Fund This Film. No console errors detected. Site loads and functions properly."
+  
+  - task: "PRESS KIT section with gallery and lightbox"
+    implemented: true
+    working: true
+    file: "/app/frontend/src/components/PressKit.jsx"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: true
+        agent: "testing"
+        comment: "✅ PRESS KIT section fully functional. Section renders after Filmmakers, before Philosophy with H2 heading 'PRESS KIT', intro text, and red 'DOWNLOAD PRESS KIT' button (bg-ftw-red). Gallery displays exactly 5 images, all loaded successfully (not broken). Lightbox: Clicking gallery images opens shadcn Dialog with enlarged image and caption. Dialog closes correctly with Escape key. Download button triggers Blob download with correct filename 'FreeTheWhales-PressKit.txt'. Data loaded from GET /api/content (pressKit with 5 photos). No console errors. Minor: Accessibility warnings about DialogContent missing DialogTitle/Description (doesn't affect functionality)."
 
 metadata:
   created_by: "testing_agent"
   version: "1.0"
-  test_sequence: 2
+  test_sequence: 3
   run_ui: true
 
 test_plan:
   current_focus:
-    - "Regression testing complete - both fixes verified"
+    - "PRESS KIT section testing complete"
   stuck_tasks: []
   test_all: false
   test_priority: "high_first"
@@ -232,3 +244,5 @@ agent_communication:
     message: "Backend API testing complete. All critical functionality working. 4/5 tests passed. One minor issue: PUT /api/content returns 422 instead of 400 for missing/null content field (standard FastAPI/Pydantic behavior). All core features verified: root endpoint, content retrieval, content updates, MongoDB persistence, no _id leaking, correct content structure."
   - agent: "testing"
     message: "REGRESSION TEST COMPLETE - BOTH FIXES VERIFIED: ✅ FIX #1: Hero tagline correctly shows 'Too Young to Die' (not 'TEST MODIFIED TAGLINE'). ✅ FIX #2: Trailer section has play button, NO 'coming soon' text, and clicking loads YouTube iframe with video ID W6EwrZegJQ8. All sanity checks passed: hero loads, counter reaches 3/3, all sections render, no console errors. Frontend fully functional."
+  - agent: "testing"
+    message: "PRESS KIT SECTION TEST COMPLETE - ALL TESTS PASSED: ✅ Section renders correctly after Filmmakers, before Philosophy. ✅ H2 heading 'PRESS KIT', intro text, and red download button all present. ✅ Gallery shows 5 images, all loaded successfully. ✅ Lightbox (shadcn Dialog) opens/closes correctly with enlarged image and caption. ✅ Download button triggers Blob download of 'FreeTheWhales-PressKit.txt'. ✅ Data loaded from GET /api/content (pressKit with 5 photos). ✅ No console errors. Minor: Accessibility warnings about DialogContent (doesn't affect functionality). All requirements met."

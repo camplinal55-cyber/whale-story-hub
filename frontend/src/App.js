@@ -13,6 +13,7 @@ import MMIW from "./components/MMIW";
 import GoldenRule from "./components/GoldenRule";
 import Cast from "./components/Cast";
 import Filmmakers from "./components/Filmmakers";
+import PressKit from "./components/PressKit";
 import Philosophy from "./components/Philosophy";
 import Trailer from "./components/Trailer";
 import FundFilm from "./components/FundFilm";
@@ -43,6 +44,20 @@ function App() {
 
   const heroData = { ...content.hero, logo: content.logo };
 
+  const pressSynopsis = [
+    "FREE THE WHALES — Too Young to Die",
+    "Beach Avenue Media presents • FTW Productions Inc.",
+    "",
+    "LOGLINE",
+    content.premise?.quote || "",
+    "",
+    content.premise?.credit || "",
+    content.cast?.credit || "",
+    "",
+    "SUPPORT: " + (content.kickstarterUrl || ""),
+    "EVERY DOLLAR COUNTS. EVERY BACKER MATTERS.",
+  ].join("\n");
+
   return (
     <div className="App">
       <div className="grain" />
@@ -55,6 +70,9 @@ function App() {
       <GoldenRule data={content.goldenRule} />
       <Cast data={content.cast} />
       <Filmmakers data={content.filmmakers} />
+      {content.pressKit && (
+        <PressKit data={content.pressKit} synopsis={pressSynopsis} />
+      )}
       <Philosophy data={content.philosophy} />
       <Trailer data={content.trailer} />
       <FundFilm data={content.fund} kickstarter={content.kickstarterUrl} />

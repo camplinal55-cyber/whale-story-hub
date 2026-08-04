@@ -141,6 +141,20 @@ export const content = {
     closingA: "A story for all generations.",
     closingB: "Exploring timeless themes of consequence and redemption.",
   },
+  pressKit: {
+    label: "// PRESS & MEDIA",
+    title: "PRESS KIT",
+    intro:
+      "Behind-the-scenes stills and production imagery for press, festivals, and distributors. Download the press kit or reach out for high-resolution assets.",
+    cta: "Download Press Kit",
+    photos: [
+      { url: "https://customer-assets-eiarnc6j.emergentagent.net/job_whale-story-hub/artifacts/0ytg4587_image.png", caption: "On location \u2014 principal photography" },
+      { url: "https://customer-assets-eiarnc6j.emergentagent.net/job_whale-story-hub/artifacts/3iemzg10_image.png", caption: "Camera department rigging a scene" },
+      { url: "https://customer-assets-eiarnc6j.emergentagent.net/job_whale-story-hub/artifacts/mw1r6c92_image.png", caption: "The convertible \u2014 a character in itself" },
+      { url: "https://customer-assets-eiarnc6j.emergentagent.net/job_whale-story-hub/artifacts/qpxfbtuf_image.png", caption: "Night exterior \u2014 cast & crew" },
+      { url: "https://customer-assets-eiarnc6j.emergentagent.net/job_whale-story-hub/artifacts/2twjtzz4_8288DE4C-4D19-4F6D-ABD7-C1A7C1165436_4_5005_c.jpeg", caption: "Character on set" },
+    ],
+  },
   trailer: {
     label: "// OFFICIAL TRAILER",
     title: "WATCH THE TRAILER",
