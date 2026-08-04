@@ -144,8 +144,8 @@ export const content = {
   trailer: {
     label: "// OFFICIAL TRAILER",
     title: "WATCH THE TRAILER",
-    // MOCKED: reference video ID unknown; using a placeholder embed.
-    youtubeId: "",
+    // Real trailer provided by user.
+    youtubeId: "W6EwrZegJQ8",
     poster: `${BASE}/ftw-night-real_18d620f8_e814c522.webp`,
     caption: "FREE THE WHALES IS NOT ABOUT WHALES.",
   },
