@@ -6,6 +6,8 @@ const BASE = "https://ftw-hub-h2hk6a5h.manus.space/manus-storage";
 export const content = {
   kickstarterUrl: "https://www.kickstarter.com/",
   logo: `${BASE}/ftw-logo_14a21b59_5a044585.png`,
+  synopsis:
+    "Free The Whales is a gritty neo-noir crime drama exploring fate, morality, and the price of recklessness. Tony, 25, is coasting through life in Vancouver, unaware he's careless and impulsive. Under a DUI suspension and still on probation for a petty crime, he struggles with responsibility—until his uncle Julian, a corrupt cop, offers him an easy payday: deliver an old English sports car, follow three simple rules — 1) drive the car only once, 2) deliver it to Julian's associate, and 3) don't open the trunk. But Tony is not one to follow rules. What starts as a joyride quickly spirals into chaos when he breaks the final rule, uncovering a dangerous secret in the trunk. As paranoia grips him, Tony turns to his best friend Louis, a well-intentioned but equally reckless companion. Meanwhile, his girlfriend Gwen—a free-spirited idealist haunted by her past—becomes an unintended casualty of Tony's poor choices, lured into the den of a violent sex trafficking ring. Desperate to fix his mistakes, Tony makes one bad decision after another, drawing the attention of a washed-up radio host turned wannabe private investigator and a ruthless criminal underworld. As the night unfolds, the weight of Tony's actions—and his defiance of the Golden Rule—tightens around him like a noose. At its core, Free The Whales is a cautionary tale about self-destruction and redemption. With a pulsing rock-and-roll soundtrack, stylized dialogue, and darkly poetic storytelling, the film forces audiences to confront the cost of selfishness, the fragility of life, and the devastating consequences of giving the finger to the very rules meant to protect us.",
   hero: {
     bg: `${BASE}/ftw-hero-real_732e0ab4_204e430c.webp`,
     presents: "Beach Avenue Media Presents",
@@ -17,19 +19,19 @@ export const content = {
     label: "// DIRECTOR'S VISION",
     title: "The Cost of Indifference",
     paragraphs: [
-      "The inherent angst of young adulthood was the initial attitude of Free The Whales. Walking on the frigid streets of Frankfurt after another soulless day as an international finance intern, surrounded by gothic architecture and gloomy skies, I encountered a street painter recreating the famous painting \"Landscape With the Fall of Icarus.\" The canvas brilliantly displayed the distraction of life at every depth of the frame\u2014the farmer, the fisherman, the trading ships, the bustling port city. And in the bottom right corner: an angel who violently crashes into the sea.",
+      "The inherent angst of young adulthood was the initial attitude of Free The Whales. Walking on the frigid streets of Frankfurt after another soulless day as an international finance intern, surrounded by gothic architecture and gloomy skies, I encountered a street painter recreating the famous painting \"Landscape With the Fall of Icarus.\" The canvas brilliantly displayed the distraction of life at every depth of the frame—the farmer, the fisherman, the trading ships, the bustling port city. And in the bottom right corner: an angel who violently crashes into the sea.",
       "Icarus flew too close to the sun and he failed. Guess what? No one cares. Everyone is too busy with the responsibility of life to notice the tragedy of a divine being. But once he reaches the impossible objective, everyone will turn from their plow, their rod, their ship, and see the man who touched the sun.",
-      "I realized the importance of my perspective and how I was wasting my talents and passions for nothing. Nihilism was the origin, but the absurdist inside myself was born. I was consumed with being somebody instead of just being\u2014and I had to make a fuss about it that could last in perpetuity.",
-      "Free The Whales was written for my twin sister\u2014a total badass who has persevered through some of the darkest situations imaginable. She has always had a big heart for the misfits and a fierce desire to fight for the misunderstood. She is a saint who is secretly lonely, afraid to face the truth of her buried pain, but she is a liberator, a lover, and a warrior. I wanted to watch her become a hero on screen while witnessing the furious wrath that is capable of the most pure-hearted person I could ever know.",
+      "I realized the importance of my perspective and how I was wasting my talents and passions for nothing. Nihilism was the origin, but the absurdist inside myself was born. I was consumed with being somebody instead of just being—and I had to make a fuss about it that could last in perpetuity.",
+      "Free The Whales was written for my twin sister—a total badass who has persevered through some of the darkest situations imaginable. She has always had a big heart for the misfits and a fierce desire to fight for the misunderstood. She is a saint who is secretly lonely, afraid to face the truth of her buried pain, but she is a liberator, a lover, and a warrior. I wanted to watch her become a hero on screen while witnessing the furious wrath that is capable of the most pure-hearted person I could ever know.",
       "\"In essence, Elwood, we're on a mission from God.\"",
       "Every impossible problem that came up in production had miraculous solutions jumping at us. Free The Whales does not mean Fuck the World at all. It means something far more profound: the power of seeing, the cost of indifference, and the possibility of redemption.",
     ],
-    attribution: "\u2014 Antonio Abellan, Writer & Director, M\u00e9tis Nation British Columbia",
+    attribution: "— Antonio Abellan, Writer & Director, M\u00e9tis Nation British Columbia",
   },
   premise: {
     label: "// THE PREMISE",
     quote:
-      "\"When a reckless young man, tasked by his corrupt cop uncle to deliver an old English sports car, ignores a simple set of rules, he unwittingly sets off a nightmarish chain of events\u2014plunging himself, his best friend, and his girlfriend into a world of crime, betrayal, and deadly consequences.\"",
+      "\"When a reckless young man, tasked by his corrupt cop uncle to deliver an old English sports car, ignores a simple set of rules, he unwittingly sets off a nightmarish chain of events—plunging himself, his best friend, and his girlfriend into a world of crime, betrayal, and deadly consequences.\"",
     credit: "A Film by Antonio Abellan",
   },
   story: {
@@ -37,7 +39,7 @@ export const content = {
     titleAWhite: "HE BROKE THE RULES.",
     titleARed: "THE RULES BROKE HIM.",
     paragraphsA: [
-      "Tony, 25, is coasting through life in Vancouver, directionless and impulsive. Under a DUI suspension and still on probation for a petty crime, he struggles with responsibility\u2014until his uncle Julian, a corrupt cop, offers him an easy payday.",
+      "Tony, 25, is coasting through life in Vancouver, directionless and impulsive. Under a DUI suspension and still on probation for a petty crime, he struggles with responsibility—until his uncle Julian, a corrupt cop, offers him an easy payday.",
       "Deliver an old English sports car. Follow three simple rules. Drive the car only once. Deliver it to Julian's associate. Don't open the trunk.",
       "But Tony is not one to follow rules.",
     ],
@@ -49,14 +51,14 @@ export const content = {
     labelB: "// AS PARANOIA GRIPS HIM",
     titleB: "LYING NEVER PAYS",
     paragraphsB: [
-      "Tony turns to his best friend Louis, a well-intentioned but equally reckless companion. Meanwhile, his girlfriend Gwen\u2014a free-spirited idealist haunted by her past\u2014becomes an unintended casualty of Tony's poor choices.",
-      "Lured into the den of a violent sex trafficking ring, Gwen must confront the darkness she's always feared\u2014and find the strength she never knew she had.",
+      "Tony turns to his best friend Louis, a well-intentioned but equally reckless companion. Meanwhile, his girlfriend Gwen—a free-spirited idealist haunted by her past—becomes an unintended casualty of Tony's poor choices.",
+      "Lured into the den of a violent sex trafficking ring, Gwen must confront the darkness she's always feared—and find the strength she never knew she had.",
     ],
     labelC: "// DESPERATE TO FIX HIS MISTAKES",
     titleC: "ACTIONS HAVE CONSEQUENCES",
     paragraphsC: [
       "Tony makes one bad decision after another, drawing the attention of a washed-up radio host turned wannabe private investigator and a ruthless criminal underworld.",
-      "As the night unfolds, the weight of Tony's actions\u2014and his defiance of the Golden Rule\u2014tightens around him like a noose.",
+      "As the night unfolds, the weight of Tony's actions—and his defiance of the Golden Rule—tightens around him like a noose.",
     ],
   },
   mmiw: {
@@ -64,10 +66,10 @@ export const content = {
     titleWhite: "Missing and Murdered",
     titleRed: "Indigenous Women",
     intro:
-      "Free The Whales features an unnamed Indigenous girl\u2014an enigma representing the whole of missing Indigenous women. She appears twice in the film, bookending the narrative with a haunting mirror of collective indifference.",
+      "Free The Whales features an unnamed Indigenous girl—an enigma representing the whole of missing Indigenous women. She appears twice in the film, bookending the narrative with a haunting mirror of collective indifference.",
     beats: [
-      { head: "Opening:", body: "A truck stop backroom. Women are held captive for sex trafficking. The film opens with this horror\u2014the foreshadowing of what is to come." },
-      { head: "The Moment of Indifference:", body: "At Gwen's homeless shelter, the Indigenous girl appears\u2014gaunt, hollow-eyed, in desperate need. She makes eye contact with Gwen and Tony. They see her. And they do nothing. She walks back into the darkness." },
+      { head: "Opening:", body: "A truck stop backroom. Women are held captive for sex trafficking. The film opens with this horror—the foreshadowing of what is to come." },
+      { head: "The Moment of Indifference:", body: "At Gwen's homeless shelter, the Indigenous girl appears—gaunt, hollow-eyed, in desperate need. She makes eye contact with Gwen and Tony. They see her. And they do nothing. She walks back into the darkness." },
       { head: "The Reckoning:", body: "The film returns to that same truck stop backroom. The Indigenous girl is among the women being held. Gwen, now understanding the cost of indifference, liberates them all. But the question remains: what if Tony and Gwen had helped her at the shelter?" },
     ],
     resourcesTitle: "Get Involved",
@@ -148,11 +150,12 @@ export const content = {
       "Behind-the-scenes stills and production imagery for press, festivals, and distributors. Download the press kit or reach out for high-resolution assets.",
     cta: "Download Press Kit",
     photos: [
-      { url: "https://customer-assets-eiarnc6j.emergentagent.net/job_whale-story-hub/artifacts/0ytg4587_image.png", caption: "On location \u2014 principal photography" },
+      { url: "https://customer-assets-eiarnc6j.emergentagent.net/job_whale-story-hub/artifacts/0ytg4587_image.png", caption: "On location — principal photography" },
       { url: "https://customer-assets-eiarnc6j.emergentagent.net/job_whale-story-hub/artifacts/3iemzg10_image.png", caption: "Camera department rigging a scene" },
-      { url: "https://customer-assets-eiarnc6j.emergentagent.net/job_whale-story-hub/artifacts/mw1r6c92_image.png", caption: "The convertible \u2014 a character in itself" },
-      { url: "https://customer-assets-eiarnc6j.emergentagent.net/job_whale-story-hub/artifacts/qpxfbtuf_image.png", caption: "Night exterior \u2014 cast & crew" },
+      { url: "https://customer-assets-eiarnc6j.emergentagent.net/job_whale-story-hub/artifacts/mw1r6c92_image.png", caption: "The convertible — a character in itself" },
+      { url: "https://customer-assets-eiarnc6j.emergentagent.net/job_whale-story-hub/artifacts/qpxfbtuf_image.png", caption: "Night exterior — cast & crew" },
       { url: "https://customer-assets-eiarnc6j.emergentagent.net/job_whale-story-hub/artifacts/2twjtzz4_8288DE4C-4D19-4F6D-ABD7-C1A7C1165436_4_5005_c.jpeg", caption: "Character on set" },
+      { url: "https://customer-assets-eiarnc6j.emergentagent.net/job_whale-story-hub/artifacts/fwzb41p8_image.png", caption: "The MG & the Lincoln — the film's iconic cars" },
     ],
   },
   trailer: {

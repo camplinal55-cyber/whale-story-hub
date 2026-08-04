@@ -177,6 +177,9 @@ frontend:
       - working: true
         agent: "testing"
         comment: "✅ REGRESSION TEST PASSED: Hero tagline correctly displays 'TOO YOUNG TO DIE' (uppercase styled). Previously showed 'TEST MODIFIED TAGLINE'. Data fetched from GET /api/content (hero.tagline). Fix verified."
+      - working: true
+        agent: "testing"
+        comment: "✅ RE-VERIFIED: Hero tagline reads 'Too Young to Die' with CSS text-transform: uppercase styling. No test/placeholder text present. Data correctly fetched from GET /api/content."
   
   - task: "Trailer section with YouTube embed"
     implemented: true
@@ -225,6 +228,9 @@ frontend:
       - working: true
         agent: "testing"
         comment: "✅ PRESS KIT section fully functional. Section renders after Filmmakers, before Philosophy with H2 heading 'PRESS KIT', intro text, and red 'DOWNLOAD PRESS KIT' button (bg-ftw-red). Gallery displays exactly 5 images, all loaded successfully (not broken). Lightbox: Clicking gallery images opens shadcn Dialog with enlarged image and caption. Dialog closes correctly with Escape key. Download button triggers Blob download with correct filename 'FreeTheWhales-PressKit.txt'. Data loaded from GET /api/content (pressKit with 5 photos). No console errors. Minor: Accessibility warnings about DialogContent missing DialogTitle/Description (doesn't affect functionality)."
+      - working: true
+        agent: "testing"
+        comment: "✅ UPDATED CONTENT VERIFIED: Gallery now displays exactly 6 images (updated from 5), all loading successfully. The 6th newly added image shows two cars (cream/white MG convertible and maroon/red Lincoln) with caption 'The MG & the Lincoln — the film's iconic cars'. Lightbox opens correctly when clicking the 6th image, displays enlarged image and caption containing 'MG' and 'Lincoln', and closes properly. Download button triggers 'FreeTheWhales-PressKit.txt' with LOGLINE and SYNOPSIS paragraph starting with 'Free The Whales is a gritty neo-noir crime drama'. All requirements verified. Minor: 2 accessibility console warnings about DialogTitle (doesn't affect functionality)."
 
 metadata:
   created_by: "testing_agent"
@@ -234,7 +240,7 @@ metadata:
 
 test_plan:
   current_focus:
-    - "PRESS KIT section testing complete"
+    - "Updated content verification complete"
   stuck_tasks: []
   test_all: false
   test_priority: "high_first"
@@ -246,3 +252,5 @@ agent_communication:
     message: "REGRESSION TEST COMPLETE - BOTH FIXES VERIFIED: ✅ FIX #1: Hero tagline correctly shows 'Too Young to Die' (not 'TEST MODIFIED TAGLINE'). ✅ FIX #2: Trailer section has play button, NO 'coming soon' text, and clicking loads YouTube iframe with video ID W6EwrZegJQ8. All sanity checks passed: hero loads, counter reaches 3/3, all sections render, no console errors. Frontend fully functional."
   - agent: "testing"
     message: "PRESS KIT SECTION TEST COMPLETE - ALL TESTS PASSED: ✅ Section renders correctly after Filmmakers, before Philosophy. ✅ H2 heading 'PRESS KIT', intro text, and red download button all present. ✅ Gallery shows 5 images, all loaded successfully. ✅ Lightbox (shadcn Dialog) opens/closes correctly with enlarged image and caption. ✅ Download button triggers Blob download of 'FreeTheWhales-PressKit.txt'. ✅ Data loaded from GET /api/content (pressKit with 5 photos). ✅ No console errors. Minor: Accessibility warnings about DialogContent (doesn't affect functionality). All requirements met."
+  - agent: "testing"
+    message: "UPDATED CONTENT VERIFICATION COMPLETE - ALL TESTS PASSED: ✅ Hero tagline: 'Too Young to Die' (uppercase styled, no test/placeholder text). ✅ PRESS KIT gallery: Exactly 6 images (updated from 5), all loading successfully. ✅ 6th image: Two cars shot (cream/white MG convertible and maroon/red Lincoln) with caption 'The MG & the Lincoln — the film's iconic cars'. ✅ Lightbox: Opens on 6th image click, shows enlarged image and caption with 'MG' and 'Lincoln', closes correctly. ✅ Download: 'FreeTheWhales-PressKit.txt' contains LOGLINE and SYNOPSIS paragraph starting with 'Free The Whales is a gritty neo-noir crime drama'. ✅ Rules counter: Reaches 3/3 on full scroll. ✅ All sections render correctly. Minor: 2 accessibility console warnings about DialogTitle (doesn't affect functionality). All review requirements verified and working."
