@@ -84,3 +84,7 @@ android-sdk/
 **/.env
 backend/.env
 frontend/.env
+
+# Firebase
+frontend/.firebase/
+firebase-debug.log
